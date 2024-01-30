@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Gæt et tal</title>
   </head>
   <body>
+    <h1>Gæt et tal fra 0 til og med 100</h1>
+    <p>Antal gæt: <span id="guessCount">0</span></p>
+    <input id="text" value="1-100" />
+    <button id="button">Gæt</button>
+    <button style="display: none" id="reset">Start igen</button>
+    <h2 id="display"></h2>
     <script src="basics.js"></script>
   </body>
 </html>
